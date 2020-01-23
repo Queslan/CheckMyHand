@@ -1,6 +1,7 @@
 package com.checkmyhand
 
 enum class Figure(val figureValue: Int) {
+    NONE(0),
     TWO(2),
     THREE(3),
     FOUR(4),
@@ -17,6 +18,7 @@ enum class Figure(val figureValue: Int) {
 }
 
 enum class Color(val color: Int) {
+    NONE(0),
     SPADES(1),
     HEARTS(2),
     DIAMONDS(3),
